@@ -1,0 +1,3 @@
+Outlook Dummy File
+IF NOT EXISTS = create(OutlookProfile)
+IF EXISTS = do(Relax)

@@ -1,0 +1,21 @@
+body, * {
+    margin: 0;
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#enter {
+    padding: 30px;
+}
+.denied {
+    background-color: #e74c3c;
+    color: #fff;
+
+}
+.granted{
+    background-color: #2ecc71;
+    color: #fff;
+}
