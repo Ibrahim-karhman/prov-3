@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.row {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.row::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+.col-3, .col-4, .col-6, .col-12 {
+    float: left;
+}
+.col-3, .col-4, .col-6, .col-12 {
+    width: 100%;
+}
+@media screen and (min-width: 640px) {
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33333%;
+    }
+    .col-6 {
+        width: 100%;
+     text-decoration-style: inherit;
+ }
+    .col-12 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+
+.navigation {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.navigation > .links .link {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation > .links .link a {
+    color: red;
+    text-decoration-line: initial;;
+}
+
+.call-to-action {
+    background-image: url('https://image.freepik.com/free-photo/syria-flag-against-city-blurred-background-sunrise-backlight_1379-1675.jpg');
+    height: 40em;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.call-to-action h1, h3 {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+
+.content {
+    margin: 100px 0px;
+}
+.content .tagline {
+    text-align: center;
+    font-size: 1.7em;
+    color: black;
+}
+
+#about .about img {
+    height: auto;
+}
+
+#about .about p {
+    font-size: 50px;
+}
+
+#portfolio > .portfolio ul {
+    padding-left: 0;
+
+}
+
+#portfolio > .portfolio ul li {
+    display: inline;
+}
+
+#contact .contact-links {
+    text-align: center;
+    padding: 30px;
+}
+
+#contact .contact-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    margin: 10px;
+}
+
+footer 
+   {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: blue;
+  
+   }
